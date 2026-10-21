@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tekartik.sqflite",
+    "module": "sqflite_android_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_android_profile-1.0.aar",
+          "url": "sqflite_android_profile-1.0.aar",
+          "size": 45036,
+          "sha512": "91df861d38b91de8983c61e8ad7834a5c247c3ca174993e26b66a5eb8cf4a06b6fc96a66e0ea6e20c100e28320ef6c7c577cfa41c03b3fb54bb8dca0792cad17",
+          "sha256": "7279e09b7b25a4fb74f1f06d6ddf73d04c8e57d33d656314f5cc341ca5a08fd3",
+          "sha1": "67158a188632c00ab465cb573478a3591e19fe37",
+          "md5": "ec6b7dcbfb1fb4b910811b271ff9cb03"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sqflite_android_profile-1.0.aar",
+          "url": "sqflite_android_profile-1.0.aar",
+          "size": 45036,
+          "sha512": "91df861d38b91de8983c61e8ad7834a5c247c3ca174993e26b66a5eb8cf4a06b6fc96a66e0ea6e20c100e28320ef6c7c577cfa41c03b3fb54bb8dca0792cad17",
+          "sha256": "7279e09b7b25a4fb74f1f06d6ddf73d04c8e57d33d656314f5cc341ca5a08fd3",
+          "sha1": "67158a188632c00ab465cb573478a3591e19fe37",
+          "md5": "ec6b7dcbfb1fb4b910811b271ff9cb03"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqflite_android_profile-1.0-sources.jar",
+          "url": "sqflite_android_profile-1.0-sources.jar",
+          "size": 23663,
+          "sha512": "8fab4715d7e3d96747ef1de92c03dff003c7f72e23c9a2bada2ac1a0daad359c22677107af7f95eed76447893685131f72c8c4575f646eb6db0cd0d6960f5c63",
+          "sha256": "a51229e1462df34685f523fbb152893e17abfe4811849e1295d6c0bf25477e3e",
+          "sha1": "a594f17941e467782009913a999b4812257c41f5",
+          "md5": "5f4db26adb3c92e861735d64021ac12f"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sqflite_android_profile-1.0-javadoc.jar",
+          "url": "sqflite_android_profile-1.0-javadoc.jar",
+          "size": 339851,
+          "sha512": "6e9fd97c3ee1d38c4b9f356370989187a70373a8bf822df773faf8f8c45fbc32da877b0e38c82ce1efc07a14898f444634cb16a04a4d86e23649b839e93973ab",
+          "sha256": "95977aa1f5ffe438d18c341262f2c68204dc118bf43a5b72a760725e2d19595b",
+          "sha1": "214f6ce63029b91be845067ba328fe08424a0bf9",
+          "md5": "fe6eab4d58607d5ca132da6a642b4ef0"
+        }
+      ]
+    }
+  ]
+}

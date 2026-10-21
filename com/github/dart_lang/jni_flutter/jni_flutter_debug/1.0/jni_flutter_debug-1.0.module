@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.dart_lang.jni_flutter",
+    "module": "jni_flutter_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jni_flutter_debug-1.0.aar",
+          "url": "jni_flutter_debug-1.0.aar",
+          "size": 2506,
+          "sha512": "18974504cba098101810bde2b3e70198c4d8db98f1341ebe015d161d94e805c310a585e2af7656263a835d50f5b744976ab520055e2c935ff2f78746e039139b",
+          "sha256": "669865732504f8020b5d00988e04772ca4bf11bd64967cf519e1719281244d97",
+          "sha1": "1b71c98ac949320b6631cd8c213ee1fe029a10c3",
+          "md5": "83a38cfe33ccea1668b8f7b16264d75f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "com.github.dart_lang.jni",
+          "module": "jni_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jni_flutter_debug-1.0.aar",
+          "url": "jni_flutter_debug-1.0.aar",
+          "size": 2506,
+          "sha512": "18974504cba098101810bde2b3e70198c4d8db98f1341ebe015d161d94e805c310a585e2af7656263a835d50f5b744976ab520055e2c935ff2f78746e039139b",
+          "sha256": "669865732504f8020b5d00988e04772ca4bf11bd64967cf519e1719281244d97",
+          "sha1": "1b71c98ac949320b6631cd8c213ee1fe029a10c3",
+          "md5": "83a38cfe33ccea1668b8f7b16264d75f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jni_flutter_debug-1.0-sources.jar",
+          "url": "jni_flutter_debug-1.0-sources.jar",
+          "size": 1655,
+          "sha512": "7a07c72930ea5c442e303f2c17de9b67451b778a59b70d46cadbbfba1a48ec54c6064ed8a8771f3ebac9b4be5a1b590cb73c91f5950db32157c4fbee15a9df72",
+          "sha256": "85b049ada44240ce31ffe69985466e9c9fd424e24a293e396576b61f5fefe1b0",
+          "sha1": "e3f68df4cf7ea0164890430e8e8a91074584481f",
+          "md5": "6ea4b0d8e6f41190c6261b40de37e7b4"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jni_flutter_debug-1.0-javadoc.jar",
+          "url": "jni_flutter_debug-1.0-javadoc.jar",
+          "size": 264618,
+          "sha512": "f25806fd5a8a7d99417390ab3338209eb68648baea25ab5058301c136ef01f4602bc0e9c871005e274aa81d5182e3b84345e9fa3cf68a23e456f8761e5b7c5a1",
+          "sha256": "1e031d07d4641bc7b9b06d5d169c54de5783172cafa66c8618248cb8f798eb0b",
+          "sha1": "e0f2fea84cefa12cfd3737e6e40b585491fb1a6e",
+          "md5": "ab2ae1cb909f929c570ae7db8ef0d8bc"
+        }
+      ]
+    }
+  ]
+}

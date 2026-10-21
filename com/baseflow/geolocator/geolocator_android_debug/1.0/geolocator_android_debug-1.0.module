@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.baseflow.geolocator",
+    "module": "geolocator_android_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geolocator_android_debug-1.0.aar",
+          "url": "geolocator_android_debug-1.0.aar",
+          "size": 61844,
+          "sha512": "2258d0c1794dee59a460bfb2bef8a6c54575b187f6dde615b519fe86024c20c2976fe080450ce56e88cd8ac942f8791ff416fdaa64b6b85b7b30805e3319fcb1",
+          "sha256": "caae0de405187e60f8cb8fb62f19cb25c5917ecd921dbcfd3bbb897f9bf64b90",
+          "sha1": "ff048b3cdca6f7935dc71c8a7e974d9d513f46c6",
+          "md5": "b7de1abb3adff8b9bc1b2e12b1cb1a5b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "21.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geolocator_android_debug-1.0.aar",
+          "url": "geolocator_android_debug-1.0.aar",
+          "size": 61844,
+          "sha512": "2258d0c1794dee59a460bfb2bef8a6c54575b187f6dde615b519fe86024c20c2976fe080450ce56e88cd8ac942f8791ff416fdaa64b6b85b7b30805e3319fcb1",
+          "sha256": "caae0de405187e60f8cb8fb62f19cb25c5917ecd921dbcfd3bbb897f9bf64b90",
+          "sha1": "ff048b3cdca6f7935dc71c8a7e974d9d513f46c6",
+          "md5": "b7de1abb3adff8b9bc1b2e12b1cb1a5b"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geolocator_android_debug-1.0-sources.jar",
+          "url": "geolocator_android_debug-1.0-sources.jar",
+          "size": 32847,
+          "sha512": "c4d6da50cb4932cf3c27c00777e190c31690e803beefc66bb022b4d94dddf762fbea0eee04513c4dc5671093c1cae4f0a78410e131c395b1672fd60d59d032cd",
+          "sha256": "fdc9ecbb7f582cf963afc9b5e8e548ce53c39f0e49e8c6193950b11bd3d66b3f",
+          "sha1": "cf774313a0440e0c14badc21b74b8f794696ac4e",
+          "md5": "71f93f9619eff7d1b58bae81473e746f"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geolocator_android_debug-1.0-javadoc.jar",
+          "url": "geolocator_android_debug-1.0-javadoc.jar",
+          "size": 389784,
+          "sha512": "42fce572a40f753ecb038e5fe79578694deace829ba4cfbc1330c652c14c77b419a9b7916a32800a116563e4261ab045738407d9da2af7ce62c777c2ffebe858",
+          "sha256": "8557b34c63bd10ab709c7bdb10c90deff7055254dbe366ac6b06b7ce698ecd5d",
+          "sha1": "a94a515dff356168aaee6e54c9f2ee81892e45bf",
+          "md5": "5f9c9e7558a8e156a86f6bc6fcce284b"
+        }
+      ]
+    }
+  ]
+}

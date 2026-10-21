@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.razorpay.razorpay_flutter",
+    "module": "razorpay_flutter_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "com.razorpay",
+          "module": "checkout",
+          "version": {
+            "requires": "1.6.+"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "razorpay_flutter_release-1.0.aar",
+          "url": "razorpay_flutter_release-1.0.aar",
+          "size": 8542,
+          "sha512": "103dd192672026ebad5528dbc1799043ced62e06408a367f1390b6bb0add7f1966eb23e2c669de5aff4a7e550722810aaea4b12828e21561cafefbe63ecf5c59",
+          "sha256": "365b1da3b47aed7d86cfdce504a5013f88aebe0c913a2a9a02c4040515f6b816",
+          "sha1": "e99765ca01483d0048cfa3669fe43e0e6a6e7bf5",
+          "md5": "cfd460d6446c4ca4dd708a679213d37e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "com.razorpay",
+          "module": "checkout",
+          "version": {
+            "requires": "1.6.+"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "razorpay_flutter_release-1.0.aar",
+          "url": "razorpay_flutter_release-1.0.aar",
+          "size": 8542,
+          "sha512": "103dd192672026ebad5528dbc1799043ced62e06408a367f1390b6bb0add7f1966eb23e2c669de5aff4a7e550722810aaea4b12828e21561cafefbe63ecf5c59",
+          "sha256": "365b1da3b47aed7d86cfdce504a5013f88aebe0c913a2a9a02c4040515f6b816",
+          "sha1": "e99765ca01483d0048cfa3669fe43e0e6a6e7bf5",
+          "md5": "cfd460d6446c4ca4dd708a679213d37e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "razorpay_flutter_release-1.0-sources.jar",
+          "url": "razorpay_flutter_release-1.0-sources.jar",
+          "size": 4160,
+          "sha512": "742715812252acab4ffc8f97cc8ed7ec5d8f61580d04ef28064010f9d90e417578d11988251f1c8a33a8f5bebf249cbc6160589e1b8374f72189a78940766d0f",
+          "sha256": "8e2aa8604dc53f4517d664208ca576e2182ba23064574661e6a1adb2c4df16f0",
+          "sha1": "2c4b2ef05b5aa881388d0a79727d5744959fe528",
+          "md5": "9f4cf24064308f661070a31a356261cc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "razorpay_flutter_release-1.0-javadoc.jar",
+          "url": "razorpay_flutter_release-1.0-javadoc.jar",
+          "size": 266700,
+          "sha512": "b9108657ce111fe6adc0dbcf97502a77dfe731a9c04be55458db5852f002d3003c470d9af45641abb86045a2af5476114a26563794fffcd48801d896bc522ec1",
+          "sha256": "5274d6e0791d15d7451c7f52d15995c86c6542ef620aa3eed01253b4ad08aabe",
+          "sha1": "e8701c3316a3b06bde4d4d2b5b7fd98941eb2742",
+          "md5": "d808356a1bb6e1ee75687cb57a9894e7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.firebase.analytics",
+    "module": "firebase_analytics_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_analytics_release-1.0.aar",
+          "url": "firebase_analytics_release-1.0.aar",
+          "size": 28732,
+          "sha512": "2eac51d2c1a1c1d8f640df27e1621e8a2bdb4e35056248b5391a2121c39e82273de801a442d1739e84a2b6553a1dfcbadb867894096674031c651d758858e764",
+          "sha256": "677e0df1d1849bd6d6db35ec5ba8b758be76d4e9cd757a21ab8b98b6dc039111",
+          "sha1": "4cbbc67a6fd5037bc8cb860bd70616ff1c9da94f",
+          "md5": "5276623d374a0b6174660bc503cbd43a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-bom",
+          "version": {
+            "requires": "34.19.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-analytics"
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.firebase.core",
+          "module": "firebase_core_release",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase_analytics_release-1.0.aar",
+          "url": "firebase_analytics_release-1.0.aar",
+          "size": 28732,
+          "sha512": "2eac51d2c1a1c1d8f640df27e1621e8a2bdb4e35056248b5391a2121c39e82273de801a442d1739e84a2b6553a1dfcbadb867894096674031c651d758858e764",
+          "sha256": "677e0df1d1849bd6d6db35ec5ba8b758be76d4e9cd757a21ab8b98b6dc039111",
+          "sha1": "4cbbc67a6fd5037bc8cb860bd70616ff1c9da94f",
+          "md5": "5276623d374a0b6174660bc503cbd43a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "firebase_analytics_release-1.0-sources.jar",
+          "url": "firebase_analytics_release-1.0-sources.jar",
+          "size": 8433,
+          "sha512": "54fe64676432ec0b273b680c25996450466eda6091479b9ff4dcc0fb47e68a535b074b3ab17f2f3fc6b43eb85ffc27b465ada57366f2241c285fdd0132372fe9",
+          "sha256": "2723c1fe4c7579303ad2df91687ca51c5b710233438e8575cc408a6a16cdb623",
+          "sha1": "ead8b2f3b87efba87928fd065d826f83ad4f4570",
+          "md5": "ff82ba52aecc27939ddd4f02c118a2ac"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "firebase_analytics_release-1.0-javadoc.jar",
+          "url": "firebase_analytics_release-1.0-javadoc.jar",
+          "size": 313911,
+          "sha512": "acac6264ce0cd54ec51472995a9955a75342e5765fa0cd351eedd8ad61eedc3eb5be5d0bdde03b55debf60b88a4ad17b34027ff0c1d0d6012872b6021dd4c7ba",
+          "sha256": "be2baaefead7783e097539f226ad8b17c5db7c82eb7351707584ca532e7db618",
+          "sha1": "2d5895d855120fe34fc418fa2499f34034952611",
+          "md5": "57079c3723044c02df0aab0113525854"
+        }
+      ]
+    }
+  ]
+}

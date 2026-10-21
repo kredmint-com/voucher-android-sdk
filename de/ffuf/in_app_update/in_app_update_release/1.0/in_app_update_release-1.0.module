@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.ffuf.in_app_update",
+    "module": "in_app_update_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "in_app_update_release-1.0.aar",
+          "url": "in_app_update_release-1.0.aar",
+          "size": 12240,
+          "sha512": "dd203eb09a1cfea04417fa0d0434c1ebe271e6cde71b846e8a487cd293f5da93d629ae66c52b67e6af12a851819db917c545ca375518224082f9ef51436dd66c",
+          "sha256": "aefd090bb357ec17bd9691445349756c538a1b6ea4448035a671e017098be9c2",
+          "sha1": "2ab1dd3f4628056c146aca7e87a1c459cce81758",
+          "md5": "a3a1512d65ce3e7ebb7cd251031eaad7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.2.10"
+          }
+        },
+        {
+          "group": "com.google.android.play",
+          "module": "app-update",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.play",
+          "module": "app-update-ktx",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "in_app_update_release-1.0.aar",
+          "url": "in_app_update_release-1.0.aar",
+          "size": 12240,
+          "sha512": "dd203eb09a1cfea04417fa0d0434c1ebe271e6cde71b846e8a487cd293f5da93d629ae66c52b67e6af12a851819db917c545ca375518224082f9ef51436dd66c",
+          "sha256": "aefd090bb357ec17bd9691445349756c538a1b6ea4448035a671e017098be9c2",
+          "sha1": "2ab1dd3f4628056c146aca7e87a1c459cce81758",
+          "md5": "a3a1512d65ce3e7ebb7cd251031eaad7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "in_app_update_release-1.0-sources.jar",
+          "url": "in_app_update_release-1.0-sources.jar",
+          "size": 3100,
+          "sha512": "5d2ecbd809b81e7faf85c63f68ae119c6427c6f268ea5d26badd86f112bbd1d74a925c2d8f8c21f7db817c2b90e73a9781a4d8d425f18984c7ab3c6179c72604",
+          "sha256": "c5d480cb91e615c4f0dfe746a2a9be4e8296d3b5ee66e85b5c00f0c26db101ef",
+          "sha1": "bc926729751c565b93532de8aa669765fb63cfc5",
+          "md5": "da1ab46d1a439f024f9b40cd6d3a4781"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "in_app_update_release-1.0-javadoc.jar",
+          "url": "in_app_update_release-1.0-javadoc.jar",
+          "size": 271407,
+          "sha512": "9b768722cc7f9e7c9ea6cf0fb5c3a838390ebcc57e4d2ba5ba9ac54d41795b3dc51bd12e126387680472bd3bbe5c103cc38541b6e744c173fd0d5184e5a9bd44",
+          "sha256": "acb112211cecda11736c270b6116e88c990754882efaaaa4746effe3e478ede6",
+          "sha1": "a734359ea4ce05b04c1e8e62040681abe637dc6d",
+          "md5": "10fdb240b3693b452ddfb5714d14e056"
+        }
+      ]
+    }
+  ]
+}

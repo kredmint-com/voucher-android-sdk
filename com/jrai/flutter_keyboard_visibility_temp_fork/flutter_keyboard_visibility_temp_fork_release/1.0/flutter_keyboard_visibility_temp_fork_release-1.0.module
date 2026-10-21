@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.jrai.flutter_keyboard_visibility_temp_fork",
+    "module": "flutter_keyboard_visibility_temp_fork_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_keyboard_visibility_temp_fork_release-1.0.aar",
+          "url": "flutter_keyboard_visibility_temp_fork_release-1.0.aar",
+          "size": 2805,
+          "sha512": "471d324f73ff665c478963bfdcf0bd407e6e4b282d91e70dd31b227a2a5f6fa7cf73002acccd2da865bda5bcd2e9dea8698a2925d796414b1a143f1c593237c8",
+          "sha256": "e497134234c2dc80d3850e720575afbd44101e74d315ccc526041225bc166e45",
+          "sha1": "55c1c6c24f992be3291ca8277121a854447ae3b5",
+          "md5": "38e546d3895eb2a055e0c7048511345a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_keyboard_visibility_temp_fork_release-1.0.aar",
+          "url": "flutter_keyboard_visibility_temp_fork_release-1.0.aar",
+          "size": 2805,
+          "sha512": "471d324f73ff665c478963bfdcf0bd407e6e4b282d91e70dd31b227a2a5f6fa7cf73002acccd2da865bda5bcd2e9dea8698a2925d796414b1a143f1c593237c8",
+          "sha256": "e497134234c2dc80d3850e720575afbd44101e74d315ccc526041225bc166e45",
+          "sha1": "55c1c6c24f992be3291ca8277121a854447ae3b5",
+          "md5": "38e546d3895eb2a055e0c7048511345a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_keyboard_visibility_temp_fork_release-1.0-sources.jar",
+          "url": "flutter_keyboard_visibility_temp_fork_release-1.0-sources.jar",
+          "size": 1729,
+          "sha512": "4ffe9e9f97439487b6ab9884807aa04fd10b51f5970e19d5236b9a958a1371bdb1daa79ed50005f04f6bb6a860023ff5d38c7a6d2a44f14dbf8fdcfa4bf9049e",
+          "sha256": "cfb8f98d778fe50d9a5c11818bc61e816edc5ebe1f08feda2fc4edaac1c65c5f",
+          "sha1": "bce1eda61e684e63a4a6f85924a615975e391bb4",
+          "md5": "05ee1272372f7db8433d2511cb1d96ca"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_keyboard_visibility_temp_fork_release-1.0-javadoc.jar",
+          "url": "flutter_keyboard_visibility_temp_fork_release-1.0-javadoc.jar",
+          "size": 263343,
+          "sha512": "ca040c262e615a995b7c76778325aa1d71d2eec5358c22542aa919bd2e770d9ec0fc461e80dcdc3149380447327ab12df32d746a6b85ec51b2b11ef4421ea84a",
+          "sha256": "17ab85dc548d8a66d800470bbd238fd59e16e7ef9360090a6c71e73057bcabe3",
+          "sha1": "63123fc695305d64b0c6070638bd2b45f702905f",
+          "md5": "4ffd5a61ccb3e9c8d702daf444dc0156"
+        }
+      ]
+    }
+  ]
+}

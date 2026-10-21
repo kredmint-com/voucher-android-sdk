@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.endigo.plugins.pdfview",
+    "module": "flutter_pdfview_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_pdfview_debug-1.0.aar",
+          "url": "flutter_pdfview_debug-1.0.aar",
+          "size": 17245,
+          "sha512": "95c1bb4c981db14ed1d2ef2f64eaaa994d205a7696aa8d7015fb63dcfa5d4b4147ba8ac106c66df1d53cff6aeeea32088dd985d25bbdae2365188fde00194b30",
+          "sha256": "aa29acb3de1b27dfc8c22430c5153b393076c254f15a2a701cef17cfb9110197",
+          "sha1": "574f6a7fbbc515df331527e4a5e06634e37edc37",
+          "md5": "fa191e76a127db733c0036f3c6cc6bcb"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "com.github.marain87",
+          "module": "AndroidPdfViewer",
+          "version": {
+            "requires": "3.2.8"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation-jvm",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_pdfview_debug-1.0.aar",
+          "url": "flutter_pdfview_debug-1.0.aar",
+          "size": 17245,
+          "sha512": "95c1bb4c981db14ed1d2ef2f64eaaa994d205a7696aa8d7015fb63dcfa5d4b4147ba8ac106c66df1d53cff6aeeea32088dd985d25bbdae2365188fde00194b30",
+          "sha256": "aa29acb3de1b27dfc8c22430c5153b393076c254f15a2a701cef17cfb9110197",
+          "sha1": "574f6a7fbbc515df331527e4a5e06634e37edc37",
+          "md5": "fa191e76a127db733c0036f3c6cc6bcb"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_pdfview_debug-1.0-sources.jar",
+          "url": "flutter_pdfview_debug-1.0-sources.jar",
+          "size": 8760,
+          "sha512": "c9cc1e78e11d82ae6eb809695f6ba130c2c80b17051b776de97fb4e25abca381ac9da3d9702f9c6de0f0ac370f3e64a0ca01b1f7d379b0150274ee04fb90b22e",
+          "sha256": "9074a4e0f4986304b89c579d04a34d8ee8318d869a69a54c2c05c6614a058158",
+          "sha1": "82eed2c46c6dee1490252a699ce235f5ef806d4b",
+          "md5": "04fd34a204d26edca69bbe5869b30a05"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_pdfview_debug-1.0-javadoc.jar",
+          "url": "flutter_pdfview_debug-1.0-javadoc.jar",
+          "size": 282128,
+          "sha512": "7d21a74a67c765992d998cff18a20e706881f524c926378ce7e4619157a19c564012bc07fd870db5630c0081a6b4e309475b5a07e76a28c51b35369e21f2aceb",
+          "sha256": "738a56e847fd628eeb81f1544d7f8ea88a034b90af36f1ab18361e1c9f837b83",
+          "sha1": "1ee816632349c50687058baf59e749cf8914537e",
+          "md5": "ab50f9e35df095880177cf3887a922dc"
+        }
+      ]
+    }
+  ]
+}

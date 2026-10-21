@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.easebuzz_flutter",
+    "module": "easebuzz_flutter_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easebuzz_flutter_profile-1.0.aar",
+          "url": "easebuzz_flutter_profile-1.0.aar",
+          "size": 7911,
+          "sha512": "c7d3afc791f11b342d9e1896915bc4ec1a9a3733f5c6790f7aa2ba7bd02adc1a41b276a86a1bbb883651c59ef3d500adb6c6f553c7db97f42485a506d98ab15a",
+          "sha256": "0080dba6cce6642044ce9b63faf75e1723073c776c5b4dd1c72c9aac8fd9fcfd",
+          "sha1": "1f6cc7274ae0c332683ce6776573847f4dc8616d",
+          "md5": "467f37ea7577ad462d8bad153282db11"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-c416acfeb8126e097f758c664aaa3da929e27da0"
+          }
+        },
+        {
+          "group": "in.easebuzz",
+          "module": "android-v2",
+          "version": {
+            "requires": "1.0.11"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "easebuzz_flutter_profile-1.0.aar",
+          "url": "easebuzz_flutter_profile-1.0.aar",
+          "size": 7911,
+          "sha512": "c7d3afc791f11b342d9e1896915bc4ec1a9a3733f5c6790f7aa2ba7bd02adc1a41b276a86a1bbb883651c59ef3d500adb6c6f553c7db97f42485a506d98ab15a",
+          "sha256": "0080dba6cce6642044ce9b63faf75e1723073c776c5b4dd1c72c9aac8fd9fcfd",
+          "sha1": "1f6cc7274ae0c332683ce6776573847f4dc8616d",
+          "md5": "467f37ea7577ad462d8bad153282db11"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "easebuzz_flutter_profile-1.0-sources.jar",
+          "url": "easebuzz_flutter_profile-1.0-sources.jar",
+          "size": 2843,
+          "sha512": "ccf350e8d283cd01ea236bfc3809054c19fefd6973843629d44b84f42e8195a1d769f5510d5bf4d453b7cd8acad641cb27d77f847ac339664dff47e9693614d9",
+          "sha256": "ebb82643ad982b754f6dfd1a00800fc13ee616b37df4fda45754a8caadc7e0d7",
+          "sha1": "eaabb3f8386af2a0e8daa36be1f36fa740fc73e5",
+          "md5": "90cc6e1be72f0a21edfd7ba4d559d8d3"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "easebuzz_flutter_profile-1.0-javadoc.jar",
+          "url": "easebuzz_flutter_profile-1.0-javadoc.jar",
+          "size": 271043,
+          "sha512": "d49677a21edb4fe9706855e2dde73251224bf2279b25a7b32fd9f89caeb45c6a9e5b40d53c770562680e64e6d2bafb97f8fba059f3277485ecefbfc024f5c543",
+          "sha256": "672ffaa161ab4c8cf502c13dbf310fcc5ba6484242663247cca668d0b1bc2097",
+          "sha1": "9095803f6228692489cf6f931ff02ae0dd09111b",
+          "md5": "ccb0c0a5ee1ecb284511becf20df03f8"
+        }
+      ]
+    }
+  ]
+}
